@@ -1,0 +1,12 @@
+{
+    "name": "shabeeb/cmsbox",
+    "description": "A content management module (box) based on concord",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "konekt/concord": ">=1.8.0"
+    },
+    "autoload": {
+        "psr-4": { "Vendor\\MyBox\\": "src/" }
+    }
+}
